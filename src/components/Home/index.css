@@ -1,0 +1,63 @@
+
+// write your Home Component css code index.css
+
+   /* Write your CSS here */
+
+ 
+
+.AdminUi-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.input-search {
+  width: 600px;
+  height: 30px;
+  background-color: lightgray;
+}
+
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.list-heading-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.heading {
+  margin-right: 100px;
+  font-size: 16px;
+}
+.cont3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 100px;
+  font-size: 16px;
+  color: blue;
+
+}
+.checkbox {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.cont{
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 60vh;
+  background-color: lightblue;
+
+}
+
+.cont1{
+  background-color: lightcoral;
+}
+                                   
+

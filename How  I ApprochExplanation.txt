@@ -1,0 +1,40 @@
+
+Name=N.Nagababu
+
+Project Name= Admin Ui
+
+
+i am explain the step by step how i approach the project
+
+
+
+Steps:
+
+1:create a react app globally install   
+    npm install -g create-react-app
+
+2:next create react app with file name
+    create-react-app gretassignmentapp --save 
+
+3:create components where i can do task 
+   there are:Home,Item,Pagination
+
+4:implement the each components
+
+5:install what i use package
+   there are:  icon package, pagination package, 
+
+6:import item,pagination components in Home component
+
+7:import Home component in app.js file
+
+8:searchbar using filter the data on fetching url
+
+9:url using fetch the data in server 
+
+10:npm start
+
+11:result shown 
+
+12: shown my result what i do in the project
+   link is :  https://eager-keller-0416c2.netlify.app/
