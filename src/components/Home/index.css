@@ -3,36 +3,49 @@
 
    /* Write your CSS here */
 
- 
+ .search-container{
+   margin-top: 10px;
+   margin: auto;
+ }
 
 .AdminUi-container {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  padding: 20px;
+  margin: 50px;
+  margin-top: 10px;
 }
 .input-search {
   width: 600px;
   height: 30px;
-  background-color: lightgray;
+  background-color:lightgray;
 }
 
 .heading-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
 }
 .list-heading-container {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+ 
   align-items: flex-start;
+ justify-content: center;
+  text-align: center;
 }
-.heading {
-  margin-right: 100px;
-  font-size: 16px;
+
+.head-names{
+  font-size: 30px;
+  margin-right: 120px;
+  text-align: left;
+  justify-content: left;
 }
-.cont3{
+
+
+.loading-content{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -47,17 +60,47 @@
   margin-right: 50px;
 }
 
-.cont{
+.inner-container{
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
-  height: 60vh;
+  height: auto;
+  width: auto;
   background-color: lightblue;
+  margin: 20px;
+  padding: 20px;
+  justify-content: center;
 
 }
 
-.cont1{
-  background-color: lightcoral;
+@media screen and (width<=768px) {
+  .inner-container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    background-color:lightskyblue;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+  
+  }
+  .head-names{
+    font-size: 10px;
+    margin-right: 30px;
+    text-align: left;
+    justify-content: left;
+  }
+
+  .input-search {
+    width: 300px;
+    height: 30px;
+    background-color:lightgray;
+  }
+  
+}
+
+.pagination-container{
+  background-color: lightskyblue;
 }
                                    
 
